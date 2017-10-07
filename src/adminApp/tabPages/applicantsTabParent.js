@@ -13,6 +13,7 @@ import globalFonts from '../../style/globalFonts.js'
 import {red500, yellow500, blue500} from 'material-ui/styles/colors';
 
 
+
 const google = window.google
 
 class ApplicantsTabParent extends Component {
@@ -118,6 +119,7 @@ class ApplicantsTabParent extends Component {
                 <CardText expandable={true} style={{color: 'white', paddingBottom: "1px", paddingTop: "1px", backgroundColor: globalThemes.blueGrey400}}>
 
                   {campaign.jobseekers[0].map((jobseeker, jobseekerIndex)=>{
+
 
                     this.createDistance(
                       parseFloat(campaign.lat), 

@@ -5,6 +5,9 @@ import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
 import globalThemes from '../../style/globalThemes.js'
 import globalFonts from '../../style/globalFonts.js'
 
+
+import {teal300, blueGrey500} from 'material-ui/styles/colors';
+
 class WorkforceTabParent extends Component {
   render() {
     return (

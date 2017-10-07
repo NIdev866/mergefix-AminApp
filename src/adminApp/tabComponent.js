@@ -15,6 +15,7 @@ import SwipeableViews from 'react-swipeable-views';
 import globalFonts from '../style/globalFonts.js'
 import globalThemes from '../style/globalThemes.js'
 
+
 config()
 class TabComponent extends Component {
   constructor(props){
